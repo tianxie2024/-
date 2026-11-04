@@ -7,9 +7,9 @@
 > 依赖抓包    api.guangyapan.com/assets/v1/get_assets
 
 [rewrite_local]
-^https?:\/\/api\.guangyapan\.com\/assets\/v1\/get_assets url script-response-body https://raw.githubusercontent.com/你的仓库/guangya.js
-^https?:\/\/api\.guangyapan\.com\/misc\/v1\/get_banner_list url script-response-body https://raw.githubusercontent.com/你的仓库/guangya.js
-^https?:\/\/api\.guangyapan\.com\/misc\/v1\/get_inapp_msg_unread_count url script-response-body https://raw.githubusercontent.com/你的仓库/guangya.js
+^https?:\/\/api\.guangyapan\.com\/assets\/v1\/get_assets url script-response-body https://raw.githubusercontent.com/tianxie2024/-/refs/heads/main/guangya.js
+^https?:\/\/api\.guangyapan\.com\/misc\/v1\/get_banner_list url script-response-body https://raw.githubusercontent.com/tianxie2024/-/refs/heads/main/guangya.js
+^https?:\/\/api\.guangyapan\.com\/misc\/v1\/get_inapp_msg_unread_count url script-response-body https://raw.githubusercontent.com/tianxie2024/-/refs/heads/main/guangya.js
 
 [mitm]
 hostname = api.guangyapan.com
